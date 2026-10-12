@@ -78,7 +78,7 @@ docker version
 Create a configuration file:
 
 vi kind-config.yaml
-``sh
+```sh
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -87,6 +87,7 @@ nodes:
 ```
 
 Save the file, then create the cluster:
+```sh
 kind create cluster --name lab --config kind-config.yaml
 ```
 
