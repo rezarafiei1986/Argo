@@ -158,8 +158,8 @@ helm ls -A
 
 ## 7-Install ArgoCD 
 
-###Link:
-https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
-https://github.com/argoproj/
+### Link:
+- https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+- https://github.com/argoproj/
 
 
