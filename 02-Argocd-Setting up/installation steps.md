@@ -81,6 +81,10 @@ vi kind-config.yaml
 ```sh
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
+name: external
+networking:
+  apiServerAddress: "192.168.x.x"    ## create target Kind cluster with its API endpoint bound to the target host's network IP.
+  apiServerPort: 6443
 nodes:
   - role: control-plane
   - role: worker
